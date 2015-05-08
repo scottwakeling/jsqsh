@@ -1,0 +1,7 @@
+
+commons-beanutils commons-beanutils jar s/.*/debian/ * *
+commons-collections commons-collections jar s/3\..*/3.x/ * *
+jline jline jar s/2\..*/2.x/ * *
+org.apache.velocity velocity jar s/.*/debian/ * *
+org.sqsh jsqsh jar * * *
+org.sqsh jsqsh jar s/.*/debian/ * *

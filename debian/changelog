@@ -1,0 +1,6 @@
+jsqsh (2.1.1-1) UNRELEASED; urgency=medium
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your
+    ITP>
+
+ -- Scott Wakeling <scott@diskfish.org>  Fri, 08 May 2015 23:42:39 +0100
