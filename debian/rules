@@ -5,5 +5,8 @@ include /usr/share/cdbs/1/class/maven.mk
 
 JAVA_HOME := /usr/lib/jvm/default-java
 
+clean::
+	cd src/main/jni && if [ -e Makefile ]; then make distclean; fi
+
 get-orig-source:
-	uscan --download-current-version --force-download --no-symlink
+	sh -e debian/orig-tar.sh

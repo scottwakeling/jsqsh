@@ -1,0 +1,2 @@
+target/jsqsh-2.1.1.jar usr/share/jsqsh/
+dist/unix/jsqsh usr/share/jsqsh/

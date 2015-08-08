@@ -1,8 +1,0 @@
-#List of dependencies for jsqsh, generated for use by debian/control
-maven:CompileDepends=libmaven-compiler-plugin-java, libsurefire-java
-maven:Depends=libcommons-beanutils-java, libcommons-collections3-java, libcommons-digester-java, libcommons-lang-java (>= 2.6), libjline2-java, velocity
-maven:OptionalDepends=
-maven:TestDepends=
-maven:DocDepends=
-maven:DocOptionalDepends=
-misc:Depends=
