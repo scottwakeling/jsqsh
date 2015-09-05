@@ -1,0 +1,5 @@
+jsqsh (2.1.1+ds-1) unstable; urgency=low
+
+  * Initial release (Closes: #784370)
+
+ -- Scott James Wakeling <scott@diskfish.org>  Sat, 01 Aug 2015 16:06:18 +0100

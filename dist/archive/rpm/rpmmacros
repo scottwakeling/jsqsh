@@ -1,2 +1,0 @@
-%_topdir  @JSQSH_RPM_DIR@
-%define debug_package %{nil}

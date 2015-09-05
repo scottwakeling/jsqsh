@@ -1,0 +1,20 @@
+Source: jsqsh
+Section: java
+Priority: optional
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Scott James Wakeling <scott@diskfish.org>
+Build-Depends-Indep: libcommons-beanutils-java, libcommons-collections3-java, libcommons-digester-java,  
+ libcommons-lang-java (>= 2.6), libjline2-java, libcommons-logging-java, libslf4j-java, libmaven-exec-plugin-java,
+ libmaven-compiler-plugin-java, libreadline-java,debhelper (>= 9), cdbs, default-jdk, maven-debian-helper (>= 1.5) 
+Standards-Version: 3.9.6
+Vcs-Git: git://anonscm.debian.org/pkg-java/jsqsh.git
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-java/jsqsh.git
+Homepage: https://github.com/scgray/jsqsh
+
+Package: jsqsh
+Architecture: all
+Depends: ${misc:Depends}, ${maven:Depends}
+Suggests: ${maven:OptionalDepends}
+Description: JSqsh
+ The universal SQL shell.
+

@@ -1,0 +1,24 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: JSqsh
+Source: https://github.com/scgray/jsqsh
+
+Files: *
+Copyright: 2015, Scott C. Gray
+License: Apache-2.0 or GPL-2
+
+Files: debian/*
+Copyright: 2015, Scott Wakeling <scott@diskfish.org>
+License: GPL3
+
+License: Apache-2.0
+ On Debian systems, the full text of the Apache-2.0 license
+ can be found in the file '/usr/share/common-licenses/Apache-2.0'
+
+License: GPL-2
+ On Debian systems, the full text of the GPL-2 license
+ can be found in the file '/usr/share/common-licenses/GPL-2'
+
+License: GPL3
+  TODO: include the full text of the license here
+
+
